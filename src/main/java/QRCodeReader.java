@@ -25,7 +25,7 @@ public class QRCodeReader {
 
     public static void main(String[] args) {
         try {
-            File file = new File("/home/coder/Desktop/facebook_qrcode.png");
+            File file = new File("/home/coder/Desktop/MyQRCode.png");
             String decodedText = decodeQRCode(file);
             if (decodedText==null){
                 System.out.println("No QR Code found in image");
